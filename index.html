@@ -3,59 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Арсений Петрусёв | Фотограф</title>
+    <title>Автосервис "Драйв" | Ремонт и обслуживание авто</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Шапка сайта -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">АвтоСервис <span>ДРАЙВ</span></div>
+            <div class="nav-phone"><a href="tel:+375290000000">+375 (29) 000-00-00</a></div>
+        </div>
+    </nav>
+
     <!-- Главный экран -->
     <header class="hero">
         <div class="container">
-            <h1>Арсений Петрусёв</h1>
-            <p class="subtitle">Профессиональный фотограф. Ловлю ваши лучшие моменты и настоящие эмоции</p>
-            <a href="#contacts" class="btn">Записаться на съёмку</a>
+            <h1>Ремонт и обслуживание автомобилей с гарантией</h1>
+            <p class="subtitle">Честный автосервис в вашем городе. Диагностика, ремонт подвески, замена масел и техническое обслуживание. Работаем ежедневно!</p>
+            <a href="https://t.me" target="_blank" class="btn">Записаться на ремонт</a>
         </div>
     </header>
 
-    <!-- Блок "О себе" -->
-    <section class="about">
+    <!-- Блок Преимущества -->
+    <section class="features">
         <div class="container">
-            <h2>Обо мне</h2>
-            <p>Привет! Меня зовут Арсений. Я помогаю людям чувствовать себя уверенно перед камерой и бережно сохраняю важные моменты жизни в кадрах. Работаю с профессиональным оборудованием, помогаю с выбором студии, локации, образа и позированием во время съёмки.</p>
-        </div>
-    </section>
-
-    <!-- Блок "Услуги" -->
-    <section class="services">
-        <div class="container">
-            <h2>Мои услуги</h2>
-            <div class="services-grid">
-                <div class="card">
-                    <h3>Индивидуальная съёмка</h3>
-                    <p>Портреты, контент для соцсетей, прогулочные фотосессии. Полная помощь с позированием.</p>
+            <h2>Почему выбирают нас</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="icon">🛠️</div>
+                    <h3>Опытные мастера</h3>
+                    <p>Стаж механиков от 5 лет. Работаем со всеми марками авто.</p>
                 </div>
-                <div class="card">
-                    <h3>Love Story & Свадьбы</h3>
-                    <p>Искренние и живые кадры вашей истории любви. Сохраняю теплоту чувств и атмосферу праздника.</p>
+                <div class="feature-item">
+                    <div class="icon">⏱️</div>
+                    <h3>Быстро и в срок</h3>
+                    <p>Большинство работ выполняем в день обращения. Без задержек.</p>
                 </div>
-                <div class="card">
-                    <h3>Репортажная съёмка</h3>
-                    <p>Качественная съёмка ваших мероприятий, вечеринок, дней рождения и корпоративов.</p>
+                <div class="feature-item">
+                    <div class="icon">💎</div>
+                    <h3>Честная гарантия</h3>
+                    <p>Даем официальную гарантию на работу и установленные запчасти.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Блок "Контакты" -->
-    <section id="contacts" class="contacts">
+    <!-- Блок Цены -->
+    <section class="price-section">
         <div class="container">
-            <h2>Контакты</h2>
-            <p>Хотите обсудить дату или задать вопрос? Напишите мне в удобный мессенджер:</p>
+            <h2>Наши услуги и цены</h2>
+            <div class="price-table">
+                <div class="price-row">
+                    <span class="service-name">Компьютерная диагностика</span>
+                    <span class="service-price">от 25 BYN</span>
+                </div>
+                <div class="price-row">
+                    <span class="service-name">Замена моторного масла и фильтра</span>
+                    <span class="service-price">от 20 BYN</span>
+                </div>
+                <div class="price-row">
+                    <span class="service-name">Ремонт подвески и тормозной системы</span>
+                    <span class="service-price">от 40 BYN</span>
+                </div>
+                <div class="price-row">
+                    <span class="service-name">Замена ремня / цепи ГРМ</span>
+                    <span class="service-price">от 120 BYN</span>
+                </div>
+                <div class="price-row">
+                    <span class="service-name">Шиномонтаж и балансировка (комплект)</span>
+                    <span class="service-price">от 35 BYN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок Контакты и Карта -->
+    <section class="contacts">
+        <div class="container">
+            <h2>Контакты и адрес</h2>
+            <p class="address-text">📍 г. Могилев, ул. Строителей, д. 12А</p>
+            <p class="work-time">🕒 Режим работы: Ежедневно с 9:00 до 21:00</p>
+            
             <div class="social-links">
-                <a href="https://t.me" target="_blank" class="social-btn tg">Написать в Telegram</a>
+                <a href="https://t.me" target="_blank" class="social-btn tg">Написать нам в Telegram</a>
+            </div>
+
+            <!-- Интерактивная карта (Яндекс.Карты) -->
+            <div class="map-container">
+                <iframe src="https://yandex.ru" width="100%" height="350" frameborder="0" allowfullscreen="true" style="position:relative; border-radius: 8px;"></iframe>
             </div>
         </div>
     </section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Автосервис "ДРАЙВ". Все права защищены.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
